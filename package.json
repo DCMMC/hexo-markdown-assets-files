@@ -1,0 +1,26 @@
+{
+  "name": "hexo-markdown-assets-files",
+  "version": "1.0.0",
+  "description": "Automove assets files in directory `/source/_posts` to source and skip render them. All markdown files' assets store in single directory named `assets` instead of creating same name directories to store each markdown file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No test units.' && exit -1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCMMC/hexo-markdown-assets-files.git"
+  },
+  "keywords": [
+    "hexo",
+    "assets"
+  ],
+  "author": "dcmmc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DCMMC/hexo-markdown-assets-files/issues"
+  },
+  "homepage": "https://github.com/DCMMC/hexo-markdown-assets-files#readme",
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
